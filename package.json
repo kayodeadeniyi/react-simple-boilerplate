@@ -1,0 +1,29 @@
+{
+  "name": "andela-awards",
+  "version": "1.0.0",
+  "description": "An award system for any category in Andela",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kayode Adeniyi",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "jeet": "^6.1.2",
+    "nib": "^1.1.0",
+    "path": "^0.12.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "rupture": "^0.6.1",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
