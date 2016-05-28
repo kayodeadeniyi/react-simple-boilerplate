@@ -14,7 +14,7 @@ export default class HomeController extends React.Component {
   render() {
     return(
       <div className='home'>
-        This is home
+        <h1>This is home</h1>
         {routerUtils.childrenWithProps(this.props.children)}
       </div>
     )
