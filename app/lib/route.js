@@ -1,10 +1,11 @@
 import React from 'react'
-import { Route } from 'react-router'
+
+import { IndexRoute, Route, Router } from 'react-router'
 import HomeController from '../components/HomeController.react'
-{ /* import every other component here */ }
+import Category from '../components/Category.react'
 
 export default (
-  <Route path="/" component={HomeController}>
-    {/* Put any other route that you want here */}
+  <Route path='/' component={HomeController}>
+    <Route  path='vote' component={Category} />
   </Route>
 )

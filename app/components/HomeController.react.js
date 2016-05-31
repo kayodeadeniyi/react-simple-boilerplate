@@ -1,7 +1,9 @@
 import React from 'react'
+
 import routerUtils from '../../lib/routerUtils'
 import AwardActions from '../actions/AwardActions'
-var AwardStore = require('../stores/AwardStore');
+import AwardStore from '../stores/AwardStore'
+import { Link } from 'react-router'
 
 import './homeController.styl'
 
@@ -28,7 +30,8 @@ export default class HomeController extends React.Component {
   render() {
     return(
       <div className='home'>
-        <h1>This is home oo</h1>
+        <h1>Hello World !</h1>
+        <Link to='/vote'>Hello</Link>
         {routerUtils.childrenWithProps(this.props.children)}
       </div>
     )

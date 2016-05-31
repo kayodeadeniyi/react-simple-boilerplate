@@ -1,4 +1,5 @@
-import 'category.styl'
+import React from 'react'
+import './category.styl'
 
 export default () => {
   return(
